@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="register-box">
+        <h2>REGISTER</h2>
+
+        <p>Silakan buat akun baru</p>
+
+        <form action="#">
+          <div class="input-group">
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Masukkan Nama Lengkap" required />
+          </div>
+
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="Masukkan Email" required />
+          </div>
+
+          <div class="input-group">
+            <label>Username</label>
+            <input type="text" placeholder="Masukkan Username" required />
+          </div>
+
+          <div class="input-group">
+            <label>Password</label>
+            <input type="password" placeholder="Masukkan Password" required />
+          </div>
+
+          <div class="input-group">
+            <label>Konfirmasi Password</label>
+            <input
+              type="password"
+              placeholder="Masukkan Ulang Password"
+              required
+            />
+          </div>
+
+          <div class="gender">
+            <label>Jenis Kelamin</label>
+
+            <div class="radio">
+              <input type="radio" name="jk" id="laki" />
+              <label for="laki">Laki-Laki</label>
+
+              <input type="radio" name="jk" id="perempuan" />
+              <label for="perempuan">Perempuan</label>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label>Tanggal Lahir</label>
+            <input type="date" />
+          </div>
+
+          <div class="input-group">
+            <label>Alamat</label>
+            <textarea rows="4" placeholder="Masukkan Alamat"></textarea>
+          </div>
+
+          <button type="submit">DAFTAR</button>
+        </form>
+
+        <div class="login-link">
+          Sudah punya akun?
+          <a href="login.html">Login</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
